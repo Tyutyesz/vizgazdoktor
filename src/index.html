@@ -1,4 +1,28 @@
 ${require('views/partials/_head.html')} 
 ${require('views/partials/_navigation.html')} 
-
+<main>
+    <section class="hero">
+        <picture>
+            <source srcset="./src/assets/images/hero.webp">
+            <source srcset="./src/assets/images/hero.jpg">
+            <img src="./src/assets/images/hero.jpg" alt="Tóth Árpád Háttérkép">
+        </picture>
+        <div class="hero__description">
+            <p>Víz <span>/</span> Gáz <span>/</span> Fűtés <span>/</span> Gázkészülék szerelés</p>
+            <h1>Tóth Árpád</h1>
+            <p>
+                +36-40-444-5557
+            </p>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="title">Szolgáltatásaim</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
 ${require('views/partials/_footer.html')}
