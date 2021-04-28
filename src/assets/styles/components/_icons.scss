@@ -1,0 +1,9 @@
+.icons{
+  width:24px;
+  height:24px;
+  transition: all 0.125s linear;
+  svg, path, circle {
+    fill: $primary-color;
+    transition: all 0.125s linear;
+  }
+}
