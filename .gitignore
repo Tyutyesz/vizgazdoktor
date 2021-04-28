@@ -39,5 +39,5 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 /.htaccess
 /dev/node_modules/
 /dev/package-lock.json
-/dist/
+
 
